@@ -1,0 +1,10 @@
+
+
+
+<h1><%= @recipe.name %></h1>
+
+<ul>
+    <% @recipe.ingredients.each do |ingred| %>
+        <li><%= ingred.name.titleize %></li>
+    <% end %> 
+</ul>
